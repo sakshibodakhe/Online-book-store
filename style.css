@@ -1,0 +1,125 @@
+body {
+    text-align: center;
+    background-color: #f0d20d1c;
+    background-color: #ffffb3;
+}
+
+.tiny {
+    background-color: white;
+    font-size: 50px;
+    border: 3px solid;
+    color: #1a0004;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 3px 2px 1px 4px grey;
+    width:700px;
+    margin-left: 340px;
+}
+
+.tiny:hover {
+    background-color: #dcd21dd4;
+
+}
+.title{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 70px;
+   width: 400px;
+   background-color: #ffadfb;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 50px;
+   margin-top: 50px;
+   border-style: double;
+   border-radius: 20px;
+   font-size: 25px;
+}
+.title:hover{
+    box-shadow: 0px 0px 5px 2px black;
+
+}
+
+
+.book {
+    height: 300px;
+    width: 200px;
+    color: #2114b0;
+    border: 4px double;
+    padding: 5px 5px 5px 5px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    box-shadow: 1px 0px 1px 5px #1b101b;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: rgb(229, 229, 191);
+}
+
+.book:hover {
+    border: 4px double black;
+    box-shadow: 0px 0px 5px 2px aqua;
+    background-color: #ffadfb;
+
+}
+
+.collection {
+    text-align: center;
+    background-color: #00085e;
+    font-size: 50px;
+    border: 3px solid;
+    color: rgb(18, 18, 22);
+    border-radius: 0px 10px 0px 10px;
+    width: 400px;
+    box-shadow: 3px 2px 1px 2px;
+    color: deeppink;
+}
+
+.collection:hover {
+    background-color: #33085e;
+    box-shadow: 3px 2px 1px 2px;
+    color: aqua;
+}
+
+.png {
+    color: rgb(198, 9, 186);
+}
+
+.png:hover {
+    color: brown;
+}
+
+.box-body {
+    height: 350px;
+    width: 350px;
+    background-color: #948a94;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: inline-block;
+    border: 5px double;
+    color: #111;
+    border-radius: 20px;
+    box-shadow: 1px 5px 1px 2px;
+}
+
+.box-body:hover {
+    background-color: deeppink;
+    color: #595959;
+}
+
+.color {
+    color: #2114b0;
+}
+
+.p-info {
+    color: #111;
+}
+
+.price {
+    font-size: 20px;
+    color: #111;
+}
+
+.price:hover {
+    color: #1414e0;
+}
